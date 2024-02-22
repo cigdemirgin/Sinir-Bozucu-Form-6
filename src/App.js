@@ -211,6 +211,7 @@ export default function App() {
           type='checkbox'
           name='marketingResponse'
           onChange={handleChange}
+          checked={formData.marketingResponse}
         />
 
         <div className='checkmark'></div>
